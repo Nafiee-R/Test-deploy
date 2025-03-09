@@ -12,8 +12,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load Data
-file_path = "https://github.com/steffbp123/Aplikasi-Login/blob/main/Bike%20Sharing%20Dataset/Dashboard/all_data.csv"
-df = pd.read_csv(file_path)
+file_path = "all_data.csv"
+df = pd.read_csv(file_path, sep=",")
 
 # Pisahkan Data Harian dan Jam
 hari_list = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
